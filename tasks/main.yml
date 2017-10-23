@@ -1,0 +1,7 @@
+---
+
+- name: backports
+  with_items: "{{ _pub_packages }}"
+  when: ansible_distribution == 'Ubuntu'
+  package:
+    name: "{{ item }}"

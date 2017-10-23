@@ -1,0 +1,15 @@
+---
+
+# mandatory
+pub_packages:
+  Ubuntu_14.04:
+    - linux-generic-lts-xenial
+    - xserver-xorg-core-lts-xenial
+    - xserver-xorg-lts-xenial
+    - xserver-xorg-video-all-lts-xenial
+    - xserver-xorg-input-all-lts-xenial
+    - libwayland-egl1-mesa-lts-xenial
+  Ubuntu_16.04:
+    - linux-generic-hwe-16.04
+    - xserver-xorg-hwe-16.04
+  default: []
